@@ -1,0 +1,1 @@
+{"requestUrl":"http://localhost:8084/api/records","requestMethod":"POST","requestBody":"{\n\"entryNo\":\"1\",\n\"recordSession\":{\"id\":\"51\"},\n\"timestamp\":\"2011-02-02 11:11:11\",\n\"payload\":\"{\\\"somevar\\\":\\\"somevalue\\\"}\"\n}","headers":["Accept","application/json","Content-Type","application/json"]}
