@@ -6,11 +6,12 @@
     <class>com.imaginea.botbot.server.jpa.RecordEntry</class>
     <exclude-unlisted-classes>false</exclude-unlisted-classes>
     <properties>
-      <property name="javax.persistence.jdbc.url" value="jdbc:derby://localhost:1527/botbot"/>
+      <property name="javax.persistence.jdbc.url" value="jdbc:h2:tcp://localhost/~/botbot"/>
       <property name="javax.persistence.jdbc.password" value="12345678"/>
-      <property name="javax.persistence.jdbc.driver" value="org.apache.derby.jdbc.ClientDriver"/>
+      <property name="javax.persistence.jdbc.driver" value="org.h2.Driver"/>
       <property name="javax.persistence.jdbc.user" value="sa"/>
       <property name="eclipselink.ddl-generation" value="create-tables"/>
+      <property name="eclipselink.target-database" value="org.eclipse.persistence.platform.database.H2Platform"/>
     </properties>
   </persistence-unit>
 </persistence>
